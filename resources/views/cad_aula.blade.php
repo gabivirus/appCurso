@@ -17,13 +17,15 @@
             <div class="col-10 ">
               <div class="invoice-card card-style mb-30">
                 <div class="card-style mb-30 ">
-                  <h6 class="mb-25 fs-4" >Digite o nome da categoria de curso</h6>
+                  <h6 class="mb-25 fs-4" >Insira a nova aula</h6>
                   <form action="{{route('cadastro-categoria')}}" method="post">
                     @csrf
                     <div class="input-style-1 fs-4 ">
-                      <label class="fs-4">Categoria</label>
-                      
-                        <input type="text" placeholder="Programação" />
+                      <label class="fs-4">Titulo</label>
+                      <input type="text" placeholder="Titulo da aula" />
+
+                      <label class="fs-4">Curso</label>
+                      <input type="text" placeholder="ID do curso" />
                       
                     </div>
                     <div class="col-auto">

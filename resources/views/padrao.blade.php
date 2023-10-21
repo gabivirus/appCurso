@@ -70,7 +70,7 @@
               <a href="{{route('form-cadastro-categoria')}}"> <span class="text h4">Cadastrar </span></a>
             </li>
             <li>
-              <a href="blank-page.html"> <span class="text h4">Gerenciar </span></a>
+              <a href="{{route('cadastro-categoria')}}"> <span class="text h4">Gerenciar </span></a>
             </li>
           </ul>
         </li>
@@ -90,10 +90,10 @@
           </a>
           <ul id="ddmenu_Curso" class="collapse dropdown-nav">
             <li>
-              <a href="{{route('form-cadastro-aula')}}"> <span class="text h4">Cadastrar </span> </a>
+              <a href="{{route('form-cadastro-curso')}}"> <span class="text h4">Cadastrar </span> </a>
             </li>
             <li>
-              <a href="blank-page.html"> <span class="text h4">Gerenciar</span> </a>
+              <a href="{{route('cadastro-curso')}}"> <span class="text h4">Gerenciar</span> </a>
             </li>
           </ul>
         </li>
@@ -113,10 +113,10 @@
           </a>
           <ul id="ddmenu_Aula" class="collapse dropdown-nav">
             <li>
-              <a href="settings.html"> <span class="text h4">Cadastrar</span> </a>
+              <a href="{{route('form-cadastro-aula')}}"> <span class="text h4">Cadastrar</span> </a>
             </li>
             <li>
-              <a href="blank-page.html"><span class="text h4"> Gerenciar</span> </a>
+              <a href="{{route('cadastro-aula')}}"><span class="text h4"> Gerenciar</span> </a>
             </li>
           </ul>
         </li>

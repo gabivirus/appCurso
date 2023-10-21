@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CategoriaController;
+use App\Http\Controllers\CursoController;
+use App\Http\Controllers\AulaController;
 
 Route::get('/',[CategoriaController::class,'index'])->name('index');
 
